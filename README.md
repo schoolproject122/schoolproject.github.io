@@ -1,1 +1,1 @@
-# schoolproject122.github.io
+# schoolproject.github.io
