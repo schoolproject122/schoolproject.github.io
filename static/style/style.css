@@ -20,6 +20,7 @@ h2  {
     text-align: center;
 }
 
+
 footer {
     text-align: center;
 }
@@ -53,17 +54,16 @@ main {
     width: 35px;
 }
  
-@media (max-width: 680px) {
-
+@media (min-width: 480px) {
     body { font-size: 14px } 
     h1 {padding: 70px;}
     .fff {padding: 65px;}
     .card {margin-top: 15px;}
     .carousel-control-prev,.carousel-control-next {
-        top: 90%;}
-        .photo>p {
-            margin-top: 20px;
-        }
+        bottom:300%;}
+    .photo>p {
+        margin-top: 20px;
+    }
 }
 
 
