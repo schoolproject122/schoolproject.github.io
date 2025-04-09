@@ -70,6 +70,9 @@ main {
         padding-top: 800px;
         display: block;
         }
+    .card {
+      width: 11rem;
+    }
     }
 
 
