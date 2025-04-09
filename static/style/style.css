@@ -54,17 +54,23 @@ main {
     width: 35px;
 }
  
-@media (min-width: 480px) {
+@media (max-width: 768px) {
+    .mm {padding-top: 20px;}
     body { font-size: 14px } 
     h1 {padding: 70px;}
-    .fff {padding: 65px;}
+    .fxg {padding: 65px;
+    padding-top: -100x;}
     .card {margin-top: 15px;}
-    .carousel-control-prev,.carousel-control-next {
-        bottom:300%;}
-    .photo>p {
-        margin-top: 20px;
+        .carousel-control-prev {max-width: 40px;
+        padding-top: 800px;
+        display: block;
+        }
+        .carousel-control-next {
+            max-width: 40px;
+        padding-top: 800px;
+        display: block;
+        }
     }
-}
 
 
 .carousel-control-prev,.carousel-control-next {
