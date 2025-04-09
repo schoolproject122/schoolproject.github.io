@@ -54,7 +54,7 @@ main {
     width: 35px;
 }
  
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .mm {padding-top: 20px;}
     body { font-size: 14px } 
     h1 {padding: 70px;}
@@ -68,7 +68,6 @@ main {
         .carousel-control-next {
             max-width: 40px;
         padding-top: 800px;
-        display: block;
         }
     .card {
       width: 11rem;
@@ -92,3 +91,6 @@ main {
 .pop {
     margin-bottom: 40px;
 }
+ .mm {
+    padding-bottom: 20px;
+ }
