@@ -63,14 +63,16 @@ main {
     .card {margin-top: 15px;}
         .carousel-control-prev {max-width: 40px;
         padding-top: 800px;
-        display: block;
         }
         .carousel-control-next {
             max-width: 40px;
         padding-top: 800px;
         }
-    .card {
-      width: 11rem;
+    .card-body {
+        width: 11rem;
+    }
+    .card>img {
+        width: 13rem;
     }
     }
 
@@ -94,3 +96,17 @@ main {
  .mm {
     padding-bottom: 20px;
  }
+ .button-container {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 40px;
+ }
+ .learn-more {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
